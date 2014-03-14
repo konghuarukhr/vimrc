@@ -3,6 +3,10 @@
 " Common configuration
 filetype plugin indent on
 
+autocmd FileType python setlocal et sta sw=4 sts=4
+autocmd FileType python setlocal foldmethod=indent
+set foldlevel=99
+
 set hls
 set tags=./tags,../tags,../*/tags
 cs add cscope.out
